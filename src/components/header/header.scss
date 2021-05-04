@@ -1,5 +1,7 @@
+@import '../../styles/variables';
+
 .Header {
     display: grid;
-    background-color: purple;
+    background-color: $bt-purple;
     padding: 1rem;
 }
