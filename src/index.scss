@@ -3,6 +3,9 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
+  // Needed to force the footer to the bottom of the screen
+  height: 100%;
 }
 
 /*
@@ -69,6 +72,17 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+
+  // Needed to force the footer to the bottom of the screen
+  height: 100%;
+}
+
+// Needed to force the footer to the bottom of the screen
+#root {
+  height: 100%;
+}
 
 /* ==========================================================================
    Helper classes
