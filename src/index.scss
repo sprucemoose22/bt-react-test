@@ -1,3 +1,5 @@
+@use './styles/variables';
+
 html {
   color: #222;
   font-size: 1em;
@@ -73,6 +75,9 @@ textarea {
    ========================================================================== */
 
 body {
+  font-family: variables.$font-family, sans-serif;
+  color: variables.$body-p-span-text-colour;
+
   // Needed to force the footer to the bottom of the screen
   height: 100%;
 }
