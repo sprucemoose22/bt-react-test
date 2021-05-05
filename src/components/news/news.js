@@ -1,8 +1,9 @@
 import './news.scss';
+import NewsSearch from './newsSearch';
 
 const News = () => {
     return (
-        <h1>This is the News</h1>
+        <NewsSearch />
     );
 }
 
