@@ -78,6 +78,8 @@ body {
   font-family: variables.$font-family, sans-serif;
   color: variables.$body-p-span-text-colour;
 
+  text-align: center;
+
   // Needed to force the footer to the bottom of the screen
   height: 100%;
 }

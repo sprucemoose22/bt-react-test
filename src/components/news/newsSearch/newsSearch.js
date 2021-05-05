@@ -2,8 +2,21 @@ import './newsSearch.scss';
 
 const NewsSearch = () => {
     return (
-        <h1>This is NewsSearch</h1>
-    )
+        <div className="NewsSearch">
+            <h1>News API Search</h1>
+
+            <form>
+                <fieldset>
+                    <label>
+                        <input
+                            name="searchQuery"
+                            placeholder="Search">
+                        </input>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    );
 }
 
 export default NewsSearch;
