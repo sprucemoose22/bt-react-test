@@ -1,11 +1,12 @@
-import { useReducer } from 'react';
 import { getArticles } from '../../../utils';
 import './newsSearch.scss';
 
 const NewsSearch = () => {
+    const inputID = "SearchInput";
 
     const handleSubmit = (event) => {
-        getArticles("food");
+        var searchQuery = document.getElementById(inputID).value;
+        getArticles(searchQuery);
 
         // Prevent page from reloading on form submit
         event.preventDefault();
@@ -21,7 +22,8 @@ const NewsSearch = () => {
                     <label>
                         <input
                             name="searchQuery"
-                            placeholder="Search">
+                            placeholder="Search"
+                            id={inputID}>
                         </input>
                     </label>
                 </fieldset>
