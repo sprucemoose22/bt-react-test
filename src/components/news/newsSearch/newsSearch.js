@@ -5,8 +5,10 @@ import './newsSearch.scss';
 const NewsSearch = () => {
 
     const handleSubmit = (event) => {
-        event.preventDefault();
         getArticles("food");
+
+        // Prevent page from reloading on form submit
+        event.preventDefault();
     }
 
 
