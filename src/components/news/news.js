@@ -4,7 +4,7 @@ import NewsSearch from './newsSearch';
 
 const News = () => {
     return (
-        <div class="News">
+        <div className="News">
             <NewsSearch />
             <NewsArticle />
             <NewsArticle />
