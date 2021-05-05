@@ -1,0 +1,21 @@
+@use '../../styles/variables';
+
+.Footer {
+    display: grid;
+    background-color: variables.$bt-purple;
+    padding: 2rem;
+    text-align: center;
+    color: variables.$header-footer-text-colour;
+
+    img {
+        margin: auto;
+        height: 8em;
+    }
+}
+
+@media (min-width: variables.$medium-device-size) {
+    .Footer {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+}
+

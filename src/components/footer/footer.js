@@ -1,8 +1,11 @@
 import './footer.scss';
+import logo from '../../assets/logo.svg';
 
 const Footer = () => {
     return (
-        <h1>Placeholder Footer</h1>
+        <div className="Footer">
+            <img src ={logo} alt="BT Logo"/>
+        </div>
     );
 }
 
