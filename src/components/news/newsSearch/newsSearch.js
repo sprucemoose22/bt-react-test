@@ -1,11 +1,20 @@
+import { useReducer } from 'react';
+import { getArticles } from '../../../utils';
 import './newsSearch.scss';
 
 const NewsSearch = () => {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        getArticles("food");
+    }
+
+
     return (
         <div className="NewsSearch">
             <h1>News API Search</h1>
 
-            <form>
+            <form onSubmit={handleSubmit}>
                 <fieldset>
                     <label>
                         <input
