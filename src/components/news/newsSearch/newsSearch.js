@@ -1,17 +1,16 @@
 import { getArticles } from '../../../utils';
 import './newsSearch.scss';
 
-const NewsSearch = () => {
+const NewsSearch = (props) => {
     const inputID = "SearchInput";
 
     const handleSubmit = (event) => {
         var searchQuery = document.getElementById(inputID).value;
-        getArticles(searchQuery);
+        getArticles(searchQuery, props.onSubmit);
 
         // Prevent page from reloading on form submit
         event.preventDefault();
     }
-
 
     return (
         <div className="NewsSearch">

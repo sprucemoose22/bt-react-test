@@ -11,7 +11,7 @@ const articleContentDelimiter = '...';
  * @param {string} searchQuery The user's search query
  * @returns Object containing a list of news articles
  */
-export const getArticles = async(searchQuery) => {
+export const getArticles = async(searchQuery, callback) => {
     const url = urlBuilder(searchQuery);
 
     return await fetch(url)
@@ -19,6 +19,7 @@ export const getArticles = async(searchQuery) => {
         .then(data => {
             limitArticleCharacterCount(data);
             console.log(data);
+            return(callback(data.articles))
         })
         .catch(error => console.log(error));
 }

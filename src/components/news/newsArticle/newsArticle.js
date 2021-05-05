@@ -1,8 +1,10 @@
 import './newsArticle.scss';
 
-const NewsArticle = () => {
-    return(
-        <h1>This is a News Article</h1>
+const NewsArticle = (props) => {
+    return (
+        <div className="NewsArticle">
+            <h2>{props.newsArticle.title}</h2>
+        </div>
     );
 }
 
