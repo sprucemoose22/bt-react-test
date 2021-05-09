@@ -70,7 +70,9 @@ These are global SCSS properties which are used throughout the project.
     - Enhanced IDE support
     - Strict null checks
     - Further reading: https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript/35048303#35048303
-- Replace Fetch API with Axios:
-    - Fetch API is less backwards-compatible than Axios. Notably it's not comptaible with IE11 (see https://caniuse.com/?search=Fetch)
+- Fetch API IE11 issues:
+    - Fetch API isn't compatible with IE11 (see https://caniuse.com/?search=Fetch). There are two approaches we could use to handle this:
+        - Implement an IE Polyfill (see https://github.com/github/fetch)
+        - Move away from Fetch API and use Axios
 - Obfuscate API Key
     - While it's less of an issue for a small project of this scale, In a real-life enterprise project the API Key should be visible in plain-text in a client-side file. See here for suggestions on how to more safely store this: https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/
