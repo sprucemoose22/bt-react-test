@@ -1,4 +1,12 @@
+@use '../../../styles/variables';
+
 .NewsSearch {
     margin: 1rem auto;
     color: #ffffff;
+
+    button {
+        background-color: variables.$bt-purple;
+        margin: 1rem auto;
+        color: #ffffff;
+    }
 }

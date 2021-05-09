@@ -21,11 +21,14 @@ const NewsSearch = (props) => {
                     <label>
                         <input
                             name="searchQuery"
-                            placeholder="Search"
+                            placeholder="Enter Search Here"
                             id={inputID}>
                         </input>
                     </label>
                 </fieldset>
+                <button type="submit">
+                    Search
+                </button>
             </form>
         </div>
     );
