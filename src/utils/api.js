@@ -18,7 +18,6 @@ export const getArticles = async(searchQuery, callback) => {
         .then(response => response.json())
         .then(data => {
             limitArticleCharacterCount(data);
-            console.log(data);
             return(callback(data.articles))
         })
         .catch(error => console.log(error));
