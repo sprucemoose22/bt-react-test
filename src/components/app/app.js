@@ -1,5 +1,4 @@
 /*import logo from './logo.svg';*/
-import logo from '../../assets/logo.svg';
 import Footer from '../footer';
 import Header from '../header';
 import News from '../news';
