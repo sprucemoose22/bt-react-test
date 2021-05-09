@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="Header">
             <img src ={logo} alt="BT Logo"/>
-            <h1>BT React Code Test - by Luke Jones - 04/05/2021</h1>
+            <h1>BT React Code Test - by Luke Jones - 09/05/2021</h1>
         </div>
     );
 }
