@@ -8,7 +8,7 @@ const articleContentDelimiter = '...';
 
 /**
  * Return a list of articles related to the search query
- * @param {string} searchQuery The user's search query
+ * @param {string} searchQuery The users search query
  * @returns Object containing a list of news articles
  */
 export const getArticles = async(searchQuery, callback) => {
