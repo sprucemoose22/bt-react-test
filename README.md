@@ -62,4 +62,4 @@ These are global SCSS properties which are used throughout the project.
 - Replace Fetch API with Axios:
     - Fetch API is less backwards-compatible than Axios. Notably it's not comptaible with IE11 (see https://caniuse.com/?search=Fetch)
 - Obfuscate API Key
-    - While it's less of an issue for a small project of this scale, In a real-life enterprise project the APi Key should be visible in plain-text in a client-side file. See here for suggestions on how to more safely store this: https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/
+    - While it's less of an issue for a small project of this scale, In a real-life enterprise project the API Key should be visible in plain-text in a client-side file. See here for suggestions on how to more safely store this: https://www.freecodecamp.org/news/how-to-securely-store-api-keys-4ff3ea19ebda/
