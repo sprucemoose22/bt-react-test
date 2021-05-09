@@ -1,6 +1,6 @@
-import './newsArticle.scss';
+import './newsFeedArticle.scss';
 
-const NewsArticle = (props) => {
+const NewsFeedArticle = (props) => {
     return (
         <div className="NewsArticle">
             <h2>{props.newsArticle.title}</h2>
@@ -8,4 +8,4 @@ const NewsArticle = (props) => {
     );
 }
 
-export default NewsArticle;
+export default NewsFeedArticle;
