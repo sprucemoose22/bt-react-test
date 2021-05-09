@@ -1,3 +1,3 @@
-import NewsArticle from "./newsArticle";
+import NewsFeedArticle from "./newsFeedArticle";
 
-export default NewsArticle;
+export default NewsFeedArticle;

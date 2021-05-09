@@ -3,7 +3,7 @@ import './newsFeedArticle.scss';
 const NewsFeedArticle = (props) => {
     return (
         <div className="NewsArticle">
-            <h2>{props.newsArticle.title}</h2>
+            <h2>{props.article.title}</h2>
         </div>
     );
 }
