@@ -1,6 +1,10 @@
+@use '../../styles/variables';
+
 .News {
     background-image: linear-gradient(
-    15deg
-    ,#a54cbd,#320b6c 41%);
+        15deg,
+        variables.$light-purple,
+        variables.$dark-purple
+        41%);
     background-attachment: fixed;
 }
