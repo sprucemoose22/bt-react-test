@@ -47,6 +47,16 @@ Property | Purpose
 ### _variables.scss
 These are global SCSS properties which are used throughout the project.
 
+
+&nbsp;
+## Lighthouse Scores
+- Performance: 99
+- Accessibility: 100
+- Best Practices 100
+- SEO: 100
+- Progressive Web App: No
+
+
 &nbsp;
 ## Improvements
 ### Application
