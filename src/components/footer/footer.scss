@@ -13,9 +13,5 @@
     }
 }
 
-@media (min-width: variables.$medium-device-size) {
-    .Footer {
-        grid-template-columns: 1fr 3fr 1fr;
-    }
-}
+
 
