@@ -50,6 +50,7 @@ These are global SCSS properties which are used throughout the project.
 &nbsp;
 ## Improvements
 ### Application
+- Display image articles if they exist.
 - Allow further filtering of searches. NewsAPI offers a range of parameters which can further filter user's searches (see https://newsapi.org/docs/endpoints/everything). Filtering options could be added to the `NewsSearch` component.
 - Simple message to the user should their search provide no results.
 
