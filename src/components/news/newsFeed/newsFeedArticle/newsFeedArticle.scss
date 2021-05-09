@@ -52,3 +52,31 @@
         padding: 0 2rem;
     }
 }
+
+@media (min-width: variables.$medium-device-size) {
+    $border: 1px solid #ccc;
+
+    .Title {
+        border-bottom: $border;
+    }
+
+    .Author {
+        margin: auto;
+    }
+
+    .Content {
+        border-left: $border;
+        height: 100%;
+    }
+
+    .NewsFeedArticle {
+        a,
+        a:visited, a:link, a:active {
+            grid-template-columns: 2fr 5fr;
+            grid-template-rows: 1fr 2fr;
+            grid-template-areas: 
+                "title title"
+                "author content";
+        }
+    }
+}
